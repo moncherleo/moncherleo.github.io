@@ -20,7 +20,7 @@ a{
     text-transform: uppercase;
     text-decoration: none;
     color: #FFFDFE;
-    font-family: Oswald;
+    font-family: 'Oswald', sans-serif;
     font-weight: 400;
     padding: 7px 13px;
 }
