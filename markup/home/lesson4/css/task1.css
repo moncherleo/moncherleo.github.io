@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+
+.menu-container{
+    background-color: #A64DFF;
+    margin: 25px 0 0;
+    border: 1px transparent;
+    box-shadow: 0 0 5px #aaa;
+}
+
+.menu{
+    width: 900px;
+    margin: auto;
+}
+
+a{
+    display: inline-block;
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFDFE;
+    font-family: Oswald;
+    font-weight: 400;
+    padding: 7px 13px;
+}
+
+a:first-child{
+    margin-left: 60px;
+}
+
+a:hover{
+    background-color: #eeeeee;
+    color: #a0a0a0;
+}

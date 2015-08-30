@@ -1,0 +1,18 @@
+a[href^="http://"], a[href^="https://"] {
+    color: #f70;
+}
+
+a[target*="google"] {
+    color: #666;
+}
+
+a[target^="_blank"]:after {
+    content: "⇱";
+    display: inline-block;
+    margin-left: 5px;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
